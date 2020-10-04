@@ -1,0 +1,52 @@
+
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+
+header.black {
+    background: #141414;
+}
+
+.header--logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header--logo div {
+    margin-left: 10px;
+    background: #FFF;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 25px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: -3px;
+}
+
+.header--logo img {
+    height: 25px;
+}
+
+.header--user {
+    height: 35px;
+}
+
+.header--user img {
+    height: 100%;
+    border-radius: 3px;
+}
