@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
+    <a href="https://mcosta21.github.io/netflix-clone-reactjs/"><img src="https://github.com/mcosta21/netflix-clone-reactjs/blob/master/docs/logo-netflix-clone.png?raw=true" alt="Logo" width="210"></a>
+</p>
+<p align="center">
+    <a href="https://mcosta21.github.io/netflix-clone-reactjs/"><img src="https://github.com/mcosta21/netflix-clone-reactjs/blob/master/docs/netflix-gif.gif?raw=true" alt="Banner" width="700"></a>
+</p>
 
-## Available Scripts
+<p align="center">
+    Clone da homepage da Netflix utilizando React JS.
+    <br />
+    <br />
+<a href="https://mcosta21.github.io/netflix-clone-reactjs/" target="_blank"><img src="https://github.com/mcosta21/netflix-clone-reactjs/blob/master/docs/icon-gitpages.png?raw=true" alt="React JS" width="140"></a>  
+</p>
 
-In the project directory, you can run:
+## Tecnologias
+Basicamente, este projeto foi desenvolvimento com base nas seguintes tecnologias:
 
-### `yarn start`
+<p align="center">
+ <a href="https://pt-br.reactjs.org/" target="_blank"><img src="https://github.com/mcosta21/netflix-clone-reactjs/blob/master/docs/icon-reactjs.png?raw=true" alt="React JS" width="60"></a>
+  &nbsp&nbsp
+<a href="https://www.themoviedb.org/" target="_blank"><img src="https://github.com/mcosta21/netflix-clone-reactjs/blob/master/docs/icon-tmdb.png?raw=true" alt="TMDB" width="60"></a>
+  &nbsp&nbsp
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Faça você também
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="justify">O video 🔥 <strong>Clone do NETFLIX em REACTJS para Iniciantes</strong> do incrível <strong>Bonieky Lacerda</strong> foi utilizado como base para criação do projeto e me fez ir além do que foi ensinado. <strong>Recomendo!!!</strong></p>
 
-### `yarn test`
+<p align="center">
+<a href="https://www.youtube.com/watch?v=tBweoUiMsDg&t=6353s&ab_channel=BoniekyLacerda" target="_blank"><img src="http://img.youtube.com/vi/tBweoUiMsDg/0.jpg" alt="🔥 Clone do NETFLIX em REACTJS para Iniciantes"></a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Iniciar projeto
 
-### `yarn build`
+Com o terminal a disposição, siga as seguintes instruções:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clonar o repositório
+$ git clone https://github.com/mcosta21/netflix-clone-reactjs
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Acessa a pasta do netflix-clone-reactjs
+$ cd netflix-clone-reactjs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instalar as dependências
+$ npm install
 
-### `yarn eject`
+# Iniciar a aplicação
+$ npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Aplicação rodando na porta 3000
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como contribuir
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+As contribuições são o que torna a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer serão **muito apreciadas**.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Faça um fork do projeto.
+2. Crie uma nova branch com as suas alterações: (`git checkout -b my-feature`)
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: (`git commit -m 'Add a new amazing feature'`)
+4. Envie as suas alterações: (`git push origin my-feature`)
 
-## Learn More
+## Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Marcio Costa - [marcioc424@gmail.com](mailto:marcioc424@gmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| <a href="https://github.com/mcosta21"><img src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png" width="30"></a> | <a href="https://www.linkedin.com/in/marcio-costa-03131a149/"><img src="https://www.pontovixmarketingdigital.com.br/images/linkedin.png" width="30"></a> | <a href="mailto:marcioc424@gmail.com"><img src="https://image.flaticon.com/icons/png/512/281/281769.png" width="30"></a> | 
+| --- | --- | --- |
 
-### Code Splitting
+## Licença
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Este projeto está sob a licença MIT.
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+> Desenvolvido por [Marcio Costa](https://www.linkedin.com/in/marcio-costa-03131a149/).
+<br/>
