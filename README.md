@@ -64,7 +64,7 @@ As contribuições são o que torna a comunidade de código aberto um lugar incr
 
 Marcio Costa - [marcioc424@gmail.com](mailto:marcioc424@gmail.com)
 
-| <a href="https://github.com/mcosta21"><img src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png" width="30"></a> | <a href="https://www.linkedin.com/in/marcio-costa-03131a149/"><img src="https://www.pontovixmarketingdigital.com.br/images/linkedin.png" width="30"></a> | <a href="mailto:marcioc424@gmail.com"><img src="https://image.flaticon.com/icons/png/512/281/281769.png" width="30"></a> | 
+| <a href="https://github.com/mcosta21"><img src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png" width="30"></a> | <a href="https://www.linkedin.com/in/marcio-costa-03131a149/"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="30"></a> | <a href="mailto:marcioc424@gmail.com"><img src="https://image.flaticon.com/icons/png/512/281/281769.png" width="30"></a> | 
 | --- | --- | --- |
 
 ## Licença
