@@ -61,6 +61,7 @@
     margin-right: 10px;
     opacity: 1;
     transition: all ease 0.2s;
+    cursor: pointer;
 }
 
 .featured--watchbutton:hover, .featured--mylistbutton:hover {
