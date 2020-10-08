@@ -1,4 +1,4 @@
-const API_KEY = 'COLOQUE SUA KEY AQUI';
+const API_KEY = 'b9183c5c2d36811f09ae74cc21f99e94';//'COLOQUE SUA KEY AQUI';
 const API_BASE = 'https://api.themoviedb.org/3';
 
 /*
@@ -24,41 +24,49 @@ export default {
             {
                 slug: 'originals',
                 title: 'Originais do Netflix',
+                type: 'tv',
                 items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'trending',
                 title: 'Recomendados para você',
+                type: 'tv',
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             }, 
             {
                 slug: 'toprated',
                 title: 'Em alta',
+                type: 'movie',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'action',
                 title: 'Ação',
+                type: 'movie',
                 items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'comedy',
                 title: 'Comédia',
+                type: 'movie',
                 items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'horror',
                 title: 'Terror',
+                type: 'movie',
                 items: await basicFetch(`/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'romance',
                 title: 'Romance',
+                type: 'movie',
                 items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'documentary',
                 title: 'Documentários',
+                type: 'movie',
                 items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
             }
         ]
@@ -79,7 +87,24 @@ export default {
                 break;
             }
         }
-
         return info;
-    }
+    },
+    getTrailerVideo: async (movieId, type) => {
+        let trailer = {};
+
+        if(movieId){
+            switch(type){
+                case 'movie':
+                    trailer = await basicFetch(`/movie/${movieId}/videos?language=pt-BR&api_key=${API_KEY}`);
+                break;
+                case 'tv':
+                    trailer = await basicFetch(`/tv/${movieId}/videos?language=pt-BR&api_key=${API_KEY}`);
+                break;
+                default: 
+                    trailer = null;
+                break;
+            }
+        }
+        return trailer;
+    },
 }

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Tmdb from './Tmdb';
-import MovieRow from './components/MovieRow';
-import FeaturedMovie from './components/FeaturedMovie';
-import Header from './components/Header';
+import Tmdb from '../../Tmdb';
+import MovieRow from '../../components/MovieRow';
+import FeaturedMovie from '../../components/FeaturedMovie';
+import Header from '../../components/Header';
 
-import './App.css';
+import './styles.css';
 
-function App() {
+function Home() {
 
   const [featuredData, setFeaturedData] = useState(null);
   const [movieList, setMovieList] = useState([]);
@@ -60,7 +60,7 @@ function App() {
       <section className="lists">
         {
           movieList.map((item, key) => (
-            <MovieRow key={key} title={item.title} items={item.items} />
+            <MovieRow key={key} title={item.title} items={item.items} type={item.type} />
           ))
         }
       </section>
@@ -88,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

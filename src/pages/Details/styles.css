@@ -1,0 +1,138 @@
+.details {
+  height: 100vh;
+  width: 100vw;
+}
+
+.details section {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111, transparent );
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 90px;
+}
+
+.details section div {
+  text-align: left;
+}
+
+.details section div h1 {
+  font-size: 42pt;
+}
+
+.details section div h4 {
+    max-width: 50%;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.details--info {
+  margin-bottom: 30px;
+}
+
+.details--info h3 {
+  width: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.details--info h3.positive{
+  background: #46d369;
+}
+
+.details--info h3.negative{
+  background: #d91921;
+}
+
+.details a {
+  padding: 12px 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  opacity: 1;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.details a div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details a:hover {
+  opacity: 0.7;
+}
+
+.details--viewtrailer {
+    background-color: #FFF;
+    color: #000;
+}
+
+.details--viewtrailer svg {
+  margin-right: 8px;
+}
+
+.details--officialsite {
+  background-color: #FFF;
+  color: #000;
+}
+
+.details aside{
+  width: 500px;
+  height: 300px;
+  position: fixed;
+  bottom: 15%;
+  right: 5%;
+}
+
+.details aside div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 6px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.video--fullscreen iframe{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 0
+}
+
+.video--fullscreen div {
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    border-radius: 0px 4px 4px 0px;
+    background: #FFF;
+    
+}
+
+.video--fullscreen div svg {
+  color: #000;
+  margin-top: 5px;
+}
+
+.details--backbutton {
+  color: #FFF;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  text-shadow: 1px 1px 5px #999;
+}
