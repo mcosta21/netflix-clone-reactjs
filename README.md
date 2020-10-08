@@ -50,6 +50,11 @@ $ npm start
 
 # Aplicação rodando na porta 3000
 ```
+### Observação
+
+Para utilizar a API do themoviedb.org, você deverá se cadastrar e obter uma chave de acesso, que necessariamente é utilizado no aplicativo.
+
+> Pasta **src** > **Tmdbb.js** > **API_KEY**
 
 ## Como contribuir
 
