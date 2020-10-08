@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './routes';
+import Screen from './screen';;
+
 
 ReactDOM.render(
-    <Routes />,
+    <Screen />,
   document.getElementById('root')
 );
